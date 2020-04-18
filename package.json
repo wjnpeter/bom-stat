@@ -1,0 +1,36 @@
+{
+  "name": "bom-stat",
+  "version": "1.0.0",
+  "description": "A node libary to fetch long-term historical rain/temperature stats from BOM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "foo"
+  },
+  "homepage": "foo",
+  "keywords": [
+    "bom",
+    "weather",
+    "au",
+    "mean",
+    "average",
+    "monthly",
+    "rainfall",
+    "temperature"
+  ],
+  "author": "wjnpeter",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csv-parse": "^4.8.8",
+    "htmlparser2": "^4.1.0",
+    "unzipper": "^0.10.10",
+    "validate": "^5.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
