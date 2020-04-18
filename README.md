@@ -45,25 +45,25 @@ getHistoricalData(params, function (err, data) {
 All the params are similar to the inputs in the [Climate Data Online system]([http://www.bom.gov.au/climate/data/index.shtml](http://www.bom.gov.au/catalogue/data-feeds.shtml)).
 
 ### station
-**Type**: String
-**Required**: true
-**Example**: '086338'
+#### Type: String
+#### Required: true
+#### Example: '086338'
 A unique 6-digits number represent a station. You could get this by lat/lon according to the [Observations List from BOM]([http://www.bom.gov.au/catalogue/data-feeds.shtml](http://www.bom.gov.au/catalogue/data-feeds.shtml)).
 
 ### type
-**Type**: String
-**Required**: true
-**Value**: 'daily' | 'monthly'
+#### Type: String
+#### Required: true
+#### Value: 'daily' | 'monthly'
 The type of data.
 
 ### about
-**Type**: String
-**Required**: true
-**Value**: 'rainfall' | 'mintemperature' | 'maxtemperature'
+#### Type: String
+#### Required: true
+#### Value: 'rainfall' | 'mintemperature' | 'maxtemperature'
 The type of data.
 
 ### year
-**Type**: Number
-**Value**: Number | null
+#### Type: Number
+#### Value: Number | null
 Only use for daily data. Set it to null for all years of data.
 

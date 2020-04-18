@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "foo"
+    "url": "https://github.com/wjnpeter/bom-stat.git"
   },
-  "homepage": "foo",
+  "homepage": "https://github.com/wjnpeter/bom-stat.git",
   "keywords": [
     "bom",
     "weather",
