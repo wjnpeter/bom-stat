@@ -1,6 +1,6 @@
 {
   "name": "bom-stat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node libary to fetch long-term historical rain/temperature stats from BOM.",
   "main": "index.js",
   "scripts": {
