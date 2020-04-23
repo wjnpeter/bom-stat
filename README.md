@@ -54,6 +54,7 @@ A unique 6-digits number represent a station. You could get this by lat/lon acco
 #### Type: String
 #### Required: true
 #### Value: 'daily' | 'monthly'
+#### Default: 'monthly'
 The type of data.
 
 ### about
