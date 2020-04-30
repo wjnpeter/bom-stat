@@ -32,18 +32,19 @@ function getHistoricalData(params, cb) {
   
   const paramErrors = paramValidator.validate(params)
   if (paramErrors.length !== 0) {
-    return cb(paramErrors[0], null)
+    if (cb) cb(paramErrors[0], null)
+    return Promise.reject(paramErrors[0])
   }
 
+  let ret = null
   if (params.type === 'monthly') {
-    getMonthlyStats(params)
-      .then(v => cb(null, v))
-      .catch(err => cb(err, null))
+    ret = getMonthlyStats(params)
   } else if (params.type === 'daily') {
-    getDailyStats(params)
-      .then(v => cb(null, v))
-      .catch(err => cb(err, null))
+    ret = getDailyStats(params)
   }
+
+  if (cb) cb(null, ret)
+  return ret
 
 }
 
