@@ -24,7 +24,7 @@
   "author": "wjnpeter",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "csv-parse": "^4.8.8",
     "jsdom": "^16.2.2",
     "unzipper": "^0.10.10",
